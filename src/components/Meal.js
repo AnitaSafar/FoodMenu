@@ -4,7 +4,7 @@ const Meal = ({meal}) => {
 
     return (
         <div>
-            {meal.strMeal}
+            <li id="list" >{meal.strMeal}</li>
         </div>
     )
 };

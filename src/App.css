@@ -1,3 +1,46 @@
 .App {
   text-align: center;
 }
+
+body {
+   margin-left: 30px; 
+   justify-content: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color:rgb(237, 227, 245);
+   }
+
+input {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  width: 200px;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  margin-right: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px; 
+}
+
+button {
+  border-radius:0px 50px 50px 0px;
+  color: white;
+  background-color: black;
+  border: 0px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: large;
+}
+
+.details {
+  margin: 8px;
+}
+
+.div {
+padding-top: 10px;
+}
+
+#list {
+  padding-left: 20px;
+}

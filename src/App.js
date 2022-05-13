@@ -62,7 +62,7 @@ function App() {
   // filterByCategory()
   
   /// filter by area, pick 3 random
-  
+
   return (
     <>
     <h1>Search meals:</h1>
@@ -70,15 +70,18 @@ function App() {
         <input type="text" value={query} onChange={(event) => setQuery(event.target.value)}/>
         <button type="button" onClick={onClick}>Search!</button>
       </div>
-      <div>
+      <div class="div">
         <h2>First meal found:</h2>
           <div>
-            <p>Name: {foundMeal?.strMeal}</p>
-            <p>Category: {foundMeal?.strCategory}</p>
-            <p>Area: {foundMeal?.strArea}</p>
+            <p class="details"><b>Name:</b> {foundMeal?.strMeal}</p>
+            <p class="details"><b>Category: </b>{foundMeal?.strCategory}</p>
+            <p class="details"><b>Area:</b> {foundMeal?.strArea}</p>
           </div>
       </div>
-      <Meals isLoading={isLoading} meals={meals}/>
+      <div class="div">
+        <Meals isLoading={isLoading} meals={meals}/>
+      </div>
+      
     </>
   );
 }
